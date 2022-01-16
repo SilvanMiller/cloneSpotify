@@ -151,11 +151,11 @@ footer h4 {
 footer .navbar-nav a {
     color: white;
     font-size: 0.8em;
+    text-decoration: none;
 }
 
 footer .navbar-nav a:hover {
     color: #9bf0e1;
-    text-decoration: none;
 }
 
 footer ul {
@@ -176,7 +176,7 @@ footer ul li {
 
 footer p {
     color: white;
-    text-align: end;
+    text-align: center;
 }
 
 h1 {
