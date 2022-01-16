@@ -7,6 +7,11 @@
      overflow-y: hidden;
  }
  
+ body {
+     background: url(../imagens/capa.png), url(../imagens/ruido.png), linear-gradient(50deg, #ff4169, #7c26f8);
+     background-attachment: fixed;
+ }
+ 
  a {
      text-decoration-line: initial;
  }
@@ -27,8 +32,6 @@
      width: 100%;
      height: 100%;
      margin-right: 100vh;
-     background: url(../imagens/capa.png), url(../imagens/ruido.png), linear-gradient(50deg, #ff4169, #7c26f8);
-     background-attachment: fixed;
      display: flex;
      justify-content: center;
      box-shadow: inset 0px 2px 3px rgba(0, 0, 0, 0.25);
@@ -63,6 +66,7 @@
      height: 45px;
      padding: 8px 15px;
      border: 0;
+     outline: 0;
      border-radius: 500px;
      font-size: 16px;
      color: #312e42;
